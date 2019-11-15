@@ -1,0 +1,40 @@
+.imagen-cancion{
+    width: 100%;
+}
+.imagen-cancion img{
+    width: 100%;
+}
+.nombre-cancion{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px
+}
+
+.letra-audio{
+    width: 100%;
+    display: flex;
+    margin: 30px 0
+}
+.class-audio-video{
+    width: 100%;
+    position: relative;
+    padding: 0 0 0 60px; 
+}
+.video-cancion{
+    width: 100%;
+    height: 300px;
+    position: sticky;
+    top:90px;
+}
+.audio{
+    width: 100%;
+    position: sticky;
+    top:390px;
+}
+.letra-cancion *{
+    white-space: nowrap
+}
+.letra h2{
+    text-align: center;
+    margin-bottom: 15px
+}

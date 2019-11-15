@@ -1,0 +1,48 @@
+.conjunto-canciones{
+    margin-left: -1%;
+    margin-right: -1%
+}
+.cancion{
+    width: 31%;   
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+.imagen-inicio{
+    width: 100%;
+}
+section> h1{
+    width: 100%;
+    text-align: center
+}
+.biografia{
+    padding-top: 30px
+}
+.biografia h1{
+    margin-bottom: 30px
+}
+.texto-imagen{
+    width: 100%;
+    display: flex;
+    align-items: center
+}
+.texto-imagen .texto{
+    margin-right: 15px
+}
+.elemento{
+    margin-bottom:30px;
+}
+.lista-canciones{
+    display: flex;
+    justify-content: space-around;
+}
+.lista-canciones >div{
+    padding: 15px;
+}
+.lista-canciones ul{
+    width: 100%;
+}
+.lista-canciones li{
+    width: 100%;
+    padding: 0 15px
+}
