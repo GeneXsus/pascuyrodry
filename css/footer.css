@@ -1,0 +1,60 @@
+.footer{
+    width: 100%;
+    background: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px -2px 8px 0px;
+    padding: 15px;
+}
+.footer .contenedor{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.bloque-footer{
+    display: flex;
+    width: 100%;
+    padding-left: 30px;
+    justify-content: space-between;
+    align-items: center
+}
+.nuestra-tienda{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  
+}
+.nuestra-tienda a{
+    font-size: 2rem;
+    color: #000;
+    text-transform: uppercase;
+}
+.nuestra-tienda a:hover{
+    color: #016fae;
+}
+
+.elemento-footer.redes{
+    display: flex;
+
+    padding-left: 30px;
+    justify-content: center
+}
+.redes a{
+    margin: 0 5px
+}
+.redes a *{
+    transition:fill 300ms
+}
+.redes a svg{
+    width: 60px;
+    height: 60px;
+}
+.redes a:hover .facebook{
+    fill: #3b5998
+}
+.redes a:hover .twiter{
+    fill: #1da1f2
+}
+.redes a:hover .youtube{
+    fill: #C4302B
+}

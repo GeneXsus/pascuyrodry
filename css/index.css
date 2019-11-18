@@ -1,13 +1,4 @@
-.conjunto-canciones{
-    margin-left: -1%;
-    margin-right: -1%
-}
-.cancion{
-    width: 31%;   
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 2%;
-}
+
 .imagen-inicio{
     width: 100%;
 }
@@ -32,17 +23,39 @@ section> h1{
 .elemento{
     margin-bottom:30px;
 }
+.elemento h2{
+    margin-bottom: 10px;
+}
 .lista-canciones{
     display: flex;
     justify-content: space-around;
 }
-.lista-canciones >div{
-    padding: 15px;
-}
-.lista-canciones ul{
+
+.contenedor-lista-canciones-titulo{
     width: 100%;
 }
-.lista-canciones li{
-    width: 100%;
-    padding: 0 15px
+
+.contenedor-lista-canciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.contenedor-img-cancion{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    overflow: hidden;
+}
+.contenedor-img-cancion img{
+    transform: scale(1);
+    transition: transform 300ms
+}
+
+.contenedor-img-cancion a:hover img{
+    transform: scale(1.1);
+}
+.contenedor-img-cancion.sin_a img{
+    filter: grayscale(100%) 
 }

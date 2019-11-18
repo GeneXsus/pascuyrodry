@@ -1,8 +1,25 @@
 .imagen-cancion{
     width: 100%;
+    position: relative;
 }
 .imagen-cancion img{
     width: 100%;
+}
+.imagen-cancion .texto{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-cancion .texto h1{
+    color: #fff;
+    margin-top: 0.1rem;
+    font-size: 3rem
 }
 .nombre-cancion{
     width: 100%;
@@ -21,18 +38,22 @@
     padding: 0 0 0 60px; 
 }
 .video-cancion{
+    background: #f1f1f1;
     width: 100%;
-    height: 300px;
+    height: calc(50vh - 90px);
     position: sticky;
     top:90px;
 }
 .audio{
     width: 100%;
     position: sticky;
-    top:390px;
+    top:calc( 50vh);
 }
 .letra-cancion *{
     white-space: nowrap
+}
+.letra-cancion p{
+    margin-bottom: 15px 
 }
 .letra h2{
     text-align: center;

@@ -1,3 +1,10 @@
+.contenedor-canciones{
+    width: 100%;
+}
+.contenedor-canciones h1{
+ text-align: center;
+ text-transform: uppercase;
+}
 .cancion{
     width: 30%;
     margin: 1.5%;
